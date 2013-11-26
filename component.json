@@ -1,0 +1,24 @@
+{
+  "name": "simple-store",
+  "repo": "Jody-Geers/simple-store",
+  "description": "ikkle client-side store.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {
+    "component/assert": "*"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+	
+    "_store/Store.js",
+
+    "models/Model.js",
+    "models/_defs/Cars.js",
+
+    "provider/Provider.js",
+    "provider/_dummy-data/cars.js"
+  ]
+}

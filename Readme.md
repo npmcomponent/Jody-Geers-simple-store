@@ -1,4 +1,3 @@
-
 # simple-store
 
   Cute ikkle client-side store i like to use.
@@ -48,7 +47,16 @@
 	  uiId: 42
 	});
 
+## Note
 
+In the provider, I’ve used a local file for dummy data, but you can get from local / session storage by flipping that switch in the objects meta data found in its model definition.
+
+In the provider, an ajax component (superagents pretty cool) can be used should you require data from server, works nice for conceptual REST services.
+
+Should you go down this route, just note you need to extend the Provider.js. 
+
+Finally you can abstract the model and provider into their own components, and change your require paths in simple-stores index.js, even add a little logic if you want to (you can leave your friends behind), however, I’ve kept it simples here.
+  
 ## License
 
   MIT
